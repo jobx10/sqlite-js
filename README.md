@@ -3,14 +3,18 @@ To create a SQLite server using JavaScript and specify the database file path in
 Step 1: Set Up Your Project First, create a new Node.js project if you haven't already: 
 
 
-mkdir sqlite-server 
-cd sqlite-server 
+mkdir sqlite-server
+
+cd sqlite-server
+
 npm init -y
 
 Step 2: Install Required Packages Install sqlite3, which is the SQLite database driver for Node.js:
 
 npm install 
+
 if any error 
+
 npm install sqlite3
 
 git clone https://github.com/jobx10/sqlite-js.git
